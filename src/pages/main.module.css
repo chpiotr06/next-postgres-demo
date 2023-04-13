@@ -1,0 +1,42 @@
+.main{
+    font-family: 'Montserrat', sans-serif;
+    max-height: 400px;
+    overflow-y: scroll;
+    margin: auto auto;
+    max-width: 700px;
+    scrollbar-color: #9FA0A9 #070B0F;
+    scrollbar-width: thin;
+}
+.main::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #070B0F; /* or add it to the track */
+}
+
+/* Add a thumb */
+.main::-webkit-scrollbar-thumb {
+  background: #9FA0A9;
+}
+
+.wrapper{
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: #9FA0A9 1px solid;
+}
+.element{
+    min-width: 100px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    word-break: break-word;
+}
+.header{
+    font-size: 30px;
+}
+.header1{
+    font-size: 70px;
+    margin: 50px 0 100px 0;
+    text-align: center;
+}
